@@ -110,7 +110,7 @@ header {
   margin-top: 24px;
 }
 
-.hero-btn button {
+button {
   background-color: var(--lunar-green-primary);
   color: #ffffff;
   font-family: "lora", sans-serif;
@@ -245,4 +245,101 @@ header {
   color: var(--text-gray);
   text-align: center;
   max-width: 330px;
+}
+
+.image-background {
+  margin-top: 40px;
+}
+
+.care-of-plants-img {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.care-of-plants-img img {
+  width: 100%;
+}
+
+.care-of-plants-background {
+  background-color: var(--hero-bg);
+  margin-top: -300px;
+  /* width: 100vw; */
+  padding-left: -100px;
+  padding-right: -100px;
+}
+.care-of-plants-background-contents {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+}
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.care-of-plants-background-contents p {
+  font-size: 24px;
+  font-family: "Lora", sans-serif;
+  font-weight: medium;
+  color: var(--lunar-green-primary);
+}
+
+.care-of-plants-icons {
+  margin-left: 100px;
+}
+
+/* <!-- popular-section SECTION  -->  */
+
+.weeks-heading {
+  font-family: "belleza", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--lunar-green-primary);
+  margin: 20px auto;
+  gap: 24px;
+}
+
+.weeks-bests {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  column-gap: 20;
+}
+
+.best-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  justify-content: center;
+}
+
+.best-card-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "lora", sans-serif;
+  font-size: 20px;
+}
+
+.plant {
+  color: var(--lunar-green-primary);
+}
+
+.price {
+  color: var(--text-gray);
+}
+
+.testimonial h3 {
+  font-family: "belleza", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--lunar-green-primary);
+
+  gap: 24px;
+  max-width: 500px;
 }
