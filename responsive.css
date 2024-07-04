@@ -1,0 +1,387 @@
+@media (max-width: 767px) {
+  html,
+  body {
+    /* width: calc(100% - 20px); */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow-x: hidden; */
+  }
+
+  section {
+    min-height: 50vh;
+    padding: 4rem 10px 1rem;
+    width: 100%;
+  }
+  .header {
+    padding: 10px 10px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .navbar {
+    display: none;
+  }
+  .nav-icons {
+    display: none;
+  }
+
+  /* <!-- HERO SECTION  -->  */
+  .caption p {
+    font-size: 14px;
+  }
+  .stroke {
+    width: 25px;
+    height: 1px;
+  }
+
+  .hero-heading {
+    font-size: 38.45px;
+    margin-top: 12px;
+    width: 100%;
+  }
+  .hero-paragraph {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .hero-btn {
+    display: none;
+  }
+  .left-img {
+    display: none;
+  }
+  .company-data {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .hero-img {
+    margin-top: -40px;
+    margin-left: 0px;
+    height: 40vh;
+  }
+
+  /* <!-- CARE OF PLANTS SECTION  --> */
+  .section-heading h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .section-heading p {
+    display: none;
+  }
+  .products .paragraph {
+    margin-top: 3px;
+    font-size: 12px;
+    max-width: 850px;
+  }
+
+  .care-of-plants-steps {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .step-heading {
+    font-size: 20px;
+  }
+  .step-item p {
+    margin-top: 3px;
+    font-size: 12px;
+    max-width: 330px;
+  }
+
+  .care-of-plants-img {
+    width: 362px;
+    margin: 0 auto;
+  }
+  .care-of-plants-background {
+    background-color: var(--hero-bg);
+    margin-top: -80px;
+    padding-left: -10px;
+    padding-right: -10px;
+  }
+  .care-of-plants-background-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+  }
+  .care-of-plants-background-contents p {
+    font-size: 10px;
+    padding-top: 80px;
+  }
+  .care-of-plants-icons {
+    display: none;
+  }
+  .group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  /* <!-- popular-section SECTION  --> */
+  .popular-section {
+    display: none;
+  }
+
+  /* testimonial-section */
+  .lines {
+    display: none;
+  }
+  .testimonial h3 {
+    font-size: 24px;
+  }
+  .testimonial-item {
+    border-radius: 5px;
+    width: 390px;
+    height: 173px;
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .testimonial-items {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    row-gap: 35px;
+  }
+  .testimonial-content p {
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 650px;
+  }
+  .testimonial-content {
+  }
+
+  .testimonial-icons .profile-pic {
+    position: absolute;
+    width: 127px;
+    height: 173px;
+    margin-top: -200px;
+  }
+  .username p {
+    font-size: 10px;
+  }
+  .ratings {
+    font-size: 9.74px;
+  }
+  .ratings img {
+    width: 10px;
+  }
+
+  /* <!-- BLOG SECTION  -->  */
+  .blog-heading {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    margin-top: -1rem;
+  }
+  .blog-heading h3 {
+    font-size: 24px;
+  }
+  .blog-heading p {
+    font-size: 12px;
+  }
+  .blog-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* margin-top: 15px; */
+  }
+  .blog-items {
+    /* margin-top: 36px; */
+    position: relative;
+    width: 380px;
+    margin: 0 auto;
+  }
+  .blog-item {
+    width: 380px;
+  }
+  .second {
+    display: none;
+  }
+  .blog-items img {
+    width: 380px;
+    border-radius: 15px;
+  }
+  .blog-item-lap {
+    background-color: var(--gray10);
+    width: 380px;
+    height: 180px;
+    padding: 26px 32px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -25px;
+    margin: 0px;
+  }
+  .user {
+    font-size: 10px;
+    column-gap: 5px;
+  }
+  .user img {
+    width: 10px;
+  }
+  .blog-item-text h4 {
+    font-size: 14.4px;
+  }
+  .blog-item-text p {
+    font-size: 10px;
+  }
+  .blog-item-lap button {
+    width: 138px;
+    font-size: 11.5px;
+    height: 32px;
+    margin-bottom: -15px;
+  }
+  .date {
+    display: none;
+  }
+
+  /* CONTACT SECTION  */
+
+  .contact {
+    margin-top: -10px;
+  }
+  .contact-img {
+    width: 380px;
+    margin: 0 auto;
+  }
+  .contact-img img {
+    position: relative;
+    width: 380px;
+  }
+  .contact-img-text {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+  .contact-img-text h3 {
+    font-size: 14px;
+  }
+  .contact-img-text p {
+    max-width: 200px;
+    margin-top: 5px;
+    font-size: 8.8px;
+  }
+  .contact-img-text h4 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .contact-img-text h4 i {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  .contact-img-text i {
+    width: 15px;
+  }
+  .contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .contact-form-heading {
+    font-size: 20px;
+    max-width: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-form input {
+    font-size: 10.83px;
+    padding: 12.19px 8.8px;
+    border-radius: 10.16px;
+    margin-right: 8px;
+    width: 216px;
+    height: 37.9px;
+  }
+
+  .contact-form button {
+    width: 162.5px;
+    font-size: 13.5px;
+    height: 37.9px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 10.16px;
+  }
+
+  .footer-items {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .footer-item2 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  footer {
+    padding: 0px 10px;
+    margin-top: -8px;
+  }
+
+  .footer-logo img {
+    width: 165px;
+  }
+
+  .footer-left p {
+    font-size: 10px;
+    max-width: 175px;
+    margin-left: 0px;
+  }
+
+  .footer-left .socials {
+    justify-content: start;
+    margin-top: 10px;
+    width: 176.88px;
+  }
+
+  .footer-left .socials img {
+    width: 12.88px;
+    height: 12.88px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+
+  .footer-item3 {
+    font-size: 10px;
+  }
+
+  .footer-right h3 {
+    font-size: 13.69px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  .footer-right p {
+    font-size: 10px;
+    padding: 3px 0;
+  }
+  .trending-section {
+    display: none;
+  }
+}

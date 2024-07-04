@@ -1,211 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NatureNest</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Belleza&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- HEADER SECTION  -->
 
-    <header class="header">
-      <div class="logo">
-        <img src="./images/LogoNatureNest2 1.png" alt="" />
-      </div>
-      <div class="navbar">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#blog">Blog</a></li>
-        </ul>
-      </div>
-      <div class="nav-icons">
-        <i class="fa-solid fa-bag-shopping"></i>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-regular fa-user"></i>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NatureNest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Belleza&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css">
+</head>
 
-    <!-- HERO SECTION  -->
+<body>
+  <!-- HEADER SECTION  -->
 
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <div class="caption">
-          <div class="stroke"></div>
-          <p>Love for Nature</p>
-        </div>
-        <div class="hero-heading">
-          <h1>Discover Your <span>Green</span> Side</h1>
-        </div>
-        <div class="hero-paragraph">
-          <p>
-            We are your one-stop destination for all things green and growing.
-            Our website offers a wide array of stunning plants, ranging from
-            vibrant flowers to lush indoor foliage, allowing you to create your
-            very own green oasis.
-          </p>
-        </div>
-        <div class="hero-btn">
-          <button>Shop now</button>
-        </div>
-        <div class="left-img">
-          <img src="./images/left plant.png" alt="" />
-        </div>
-        <div class="company-data">
-          <div class="species">
-            <h3>50+</h3>
-            <p>Plant Species</p>
-          </div>
-          <div class="customers">
-            <h3>100+</h3>
-            <p>Customers</p>
-          </div>
-        </div>
-      </div>
-      <div class="hero-img">
-        <img src="./images/hero-img.png" alt="" />
-      </div>
-    </section>
+  <header class="header">
+    <div class="logo">
+      <img src="./images/LogoNatureNest2 1.png" alt="" />
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </div>
+    <div class="nav-icons">
+     <div class="search">
+   <input type="text" placeholder="Search by plant" id="Search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+   
+       <i class="fa-solid fa-bag-shopping"></i>
+      <i class="fa-regular fa-user"></i>
+    </div>
+  </header>
 
-    <!-- CARE OF PLANTS SECTION  -->
-    <section class="products" id="products">
-      <div class="section-heading">
-        <h2>Steps To Take Care Of Your <span>Plants</span></h2>
-        <p>Learn more <i class="fa-solid fa-arrow-right"></i></p>
+  <!-- HERO SECTION  -->
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="caption">
+        <div class="stroke"></div>
+        <p>Love for Nature</p>
       </div>
-      <div class="paragraph">
+      <div class="hero-heading">
+        <h1>Discover Your <span>Green</span> Side</h1>
+      </div>
+      <div class="hero-paragraph">
         <p>
-          By following these three steps - proper watering, appropriate
-          sunlight, and providing essential nutrients - you'll be well on your
-          way to maintaining healthy and thriving plants.
+          We are your one-stop destination for all things green and growing.
+          Our website offers a wide array of stunning plants, ranging from
+          vibrant flowers to lush indoor foliage, allowing you to create your
+          very own green oasis.
+        </p>
+      </div>
+      <div class="hero-btn">
+        <button>Shop now</button>
+      </div>
+      <div class="left-img">
+        <img src="./images/left plant.png" alt="" />
+      </div>
+      <div class="company-data">
+        <div class="species">
+          <h3>50+</h3>
+          <p>Plant Species</p>
+        </div>
+        <div class="customers">
+          <h3>100+</h3>
+          <p>Customers</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="./images/hero-img.png" alt="" />
+    </div>
+  </section>
+
+  <!-- CARE OF PLANTS SECTION  -->
+  <section class="products">
+    <div class="section-heading">
+      <h2>Steps To Take Care Of Your <span>Plants</span></h2>
+      <p>Learn more <i class="fa-solid fa-arrow-right"></i></p>
+    </div>
+    <div class="paragraph">
+      <p>
+        By following these three steps - proper watering, appropriate
+        sunlight, and providing essential nutrients - you'll be well on your
+        way to maintaining healthy and thriving plants.
+      </p>
+    </div>
+
+    <div class="care-of-plants-steps">
+      <div class="step-item">
+        <div class="step-icon">
+          <img src="./images/Vector (3).png" alt="" />
+        </div>
+        <div class="step-heading">
+          <h3>Watering</h3>
+        </div>
+        <p>
+          Water your plants when the top inch of soil feels dry to the touch.
+          Avoid overwatering, as it can lead to root dehydration.
         </p>
       </div>
 
-      <div class="care-of-plants-steps">
-        <div class="step-item">
-          <div class="step-icon">
-            <img src="./images/Vector (3).png" alt="" />
-          </div>
-          <div class="step-heading">
-            <h3>Watering</h3>
-          </div>
-          <p>
-            Water your plants when the top inch of soil feels dry to the touch.
-            Avoid overwatering, as it can lead to root dehydration.
-          </p>
+      <div class="step-item">
+        <div class="step-icon">
+          <img src="./images/sun.png" alt="" />
         </div>
-
-        <div class="step-item">
-          <div class="step-icon">
-            <img src="./images/sun.png" alt="" />
-          </div>
-          <div class="step-heading">
-            <h3>Sunlight</h3>
-          </div>
-          <p>
-            Most plants need adequate sunlight to thrive. Place your plants in
-            areas that receive the appropriate amount of light for their
-            specific needs
-          </p>
+        <div class="step-heading">
+          <h3>Sunlight</h3>
         </div>
+        <p>
+          Most plants need adequate sunlight to thrive. Place your plants in
+          areas that receive the appropriate amount of light for their
+          specific needs
+        </p>
+      </div>
 
-        <div class="step-item">
-          <div class="step-icon">
-            <img src="./images/shopping-bag.png" alt="" />
-          </div>
-          <div class="step-heading">
-            <h3>Nutrients and Fertilizing</h3>
-          </div>
-          <p>
-            Choose a suitable fertilizer based on the specific needs of your
-            plants, whether it's a balanced or specialized formula.
-          </p>
+      <div class="step-item">
+        <div class="step-icon">
+          <img src="./images/shopping-bag.png" alt="" />
+        </div>
+        <div class="step-heading">
+          <h3>Nutrients and Fertilizing</h3>
+        </div>
+        <p>
+          Choose a suitable fertilizer based on the specific needs of your
+          plants, whether it's a balanced or specialized formula.
+        </p>
+      </div>
+    </div>
+
+    <div class="image-background">
+      <div class="care-of-plants-img">
+        <img src="./images/Frame 32.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <div class="care-of-plants-background">
+    <div class="care-of-plants-background-contents">
+      <div class="group">
+        <p>
+          Get ready to explore our virtual garden and discover the joys of
+          gardening with us!
+        </p>
+        <div class="care-of-plants-icons">
+          <img src="./images/Extra Icons.png" alt="" />
+          <img src="./images/Extra Icons (1).png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popular-section SECTION  -->
+  <section class="popular-section">
+    <div class="weeks-heading">
+      <h3>
+        This week's <span>Most Popular</span> and <span>Best Selling </span>
+      </h3>
+      <button>See more</button>
+    </div>
+    <div class="weeks-bests">
+      <div class="best-card">
+        <img src="./images/image (3).png" alt=""  />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
         </div>
       </div>
 
-      <div class="image-background">
-        <div class="care-of-plants-img">
-          <img src="./images/Frame 32.png" alt="" />
+      <div class="best-card">
+        <img src="./images/image (5).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
         </div>
       </div>
-    </section>
-    <div class="care-of-plants-background">
-      <div class="care-of-plants-background-contents">
-        <div class="group">
-          <p>
-            Get ready to explore our virtual garden and discover the joys of
-            gardening with us!
-          </p>
-          <div class="care-of-plants-icons">
-            <img src="./images/Extra Icons.png" alt="" />
-            <img src="./images/Extra Icons (1).png" alt="" />
+
+      <div class="best-card">
+        <img src="./images/image (2).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
+        </div>
+      </div>
+
+      <div class="best-card">
+        <img src="./images/image (6).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Trending SECTION  -->
+   <div class="trending-section">
+   <div class="trending-heading">
+    <h3 class="Trending">Trending <span>Categories</span></h3>
+     <p>View All <i class="fa-solid fa-arrow-right"></i></p>
+   </div>
+   
+   <div class="plant-categories">
+    <h3>Indoor plants <i class="fa-solid fa-arrow-right"></i></h3>
+    <h3>Outdoor plants <i class="fa-solid fa-arrow-right"></i></h3>
+    <h3>Gardening Kits <i class="fa-solid fa-arrow-right"></i></h3>
+    <h3>Fertilizers and nutrients<i class="fa-solid fa-arrow-right"></i></h3>
+    <h3>Plant care accessories <i class="fa-solid fa-arrow-right"></i></h3>
+   </div>
+<div class="plant-categories-content">
+    <div class="weeks-bests">
+      <div class="best-card">
+        <img src="./images/image (3).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
+        </div>
+      </div>
+
+      <div class="best-card">
+        <img src="./images/image (1).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
+        </div>
+      </div>
+
+      <div class="best-card">
+        <img src="./images/image (2).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
+        </div>
+      </div>
+
+      <div class="best-card">
+        <img src="./images/image (3).png" alt="" />
+        <div class="best-card-tag">
+          <div class="plant">Fiddle-leaf fig</div>
+          <div class="price"> &#8358 3,500.00</div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+      </div>
+
+  <!-- Testimonial SECTION  -->
+  <section class="testimonial">
+  
+    <div class="testimonial-heading">
+      <h3>What customers say about <span> Naturenest? </span>
+        </h3>
+        <div class="lines">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      
+    </div>
+    <div class="testimonial-items">
+     <div class="testimonial-item">
+    <div class="testimonial-content">
+      <p>"Thrilled with My New Plant!"I recently purchased a beautiful monstera deliciosa from Naturenest, and I couldn't be happier! The plant arrived in perfect condition, well-packaged, and ready to thrive. The website's selection is impressive, and the checkout process was seamless. I'll definitely be back for more green goodness!</p>
+      <div class="ratings"> 
+        <img src="./images/StarFill.png" alt=""> <h4>4.5</h4>
+      </div>
+      <div class="testimonial-icons">
+      <img src="./images/Vector (5).png" alt="" class="quote" >
+      <img src="./images/unsplash_5aGUyCW_PJw-removebg-preview.png" alt="" class="profile-pic">
+      <div class="username">
+        <h3>Paul Nwodo</h3>
+        <p>Software Developer</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+      <div class="testimonial-item">
+    <div class="testimonial-content ">
+      <p>I recently ordered a stunning fiddle leaf fig tree from Green Oasis Plants, and I'm thrilled with my purchase! The plant arrived promptly, impeccably packaged, and in excellent health. The website's user-friendly interface made browsing and selecting the perfect plant a breeze. Plus, the care instructions provided were incredibly helpful. I'll definitely be a repeat customer!</p>
+      <div class="ratings"> 
+        <img src="./images/StarFill.png" alt=""> <h4>4.5</h4>
+      </div>
+      <div class="testimonial-icons">
+      <img src="./images/Vector (5).png" alt="" class="quote" >
+      <img src="./images/unsplash_O3ymvT7Wf9U-removebg-preview.png" alt="" class="profile-pic">
+      <div class="username">
+        <h3>Noble Ibe</h3>
+        <p>Youtuber</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- BLOG SECTION  -->
+  <section class="blog" id="">
+    <div class="blog-heading">
+      <h3>Discover weekly content about Plants, & more</h3>
+      <p>Learn more <i class="fa-solid fa-arrow-right"></i> </p>
+    </div>
+    <div class="blog-section">
+      <div class="blog-items">
+        <div class="blog-item">
+          <img src="./images/Photo.png" alt="" >
+        </div>
+        <div class="blog-item-lap">
+          <div class="user">
+            <img src="./images/Vector (4).png" alt="">
+            <p>By Adebamike</p>
           </div>
+          <div class="blog-item-text">
+            <h4>How to care for Monstera Plant</h4>
+            <p> Monstera deliciosa, also known as the split-leaf philodendron or Swiss cheese plant, is a... </p>
+
+          </div>
+          <button>Read more</button>
+        </div>
+        <div class="date">
+          <p>25 Nov</p>
+        </div>
+
+
+      </div>
+
+       <div class="blog-items second">
+        <div class="blog-item">
+          <img src="./images/Photo (1).png" alt="">
+        </div>
+        <div class="blog-item-lap">
+          <div class="user">
+            <img src="./images/Vector (4).png" alt="">
+            <p>By Ajibola</p>
+          </div>
+          <div class="blog-item-text">
+            <h4>Surprising facts about the Monstera</h4>
+            <p> Monstera deliciosa, also known as the Swiss cheese plant, is a fascinating tropical houseplant with...
+            </p>
+
+          </div> 
+          <button>Read more</button>
+        </div>
+        <div class="date">
+          <p>25 Nov</p>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION  -->
+  <section class="contact" >
+    <div class="contact-img">
+      <img src="./images/Frame 36.png" alt="">
+      <div class="contact-img-text">
+        <h3>Get inspired from
+          our Instagram</h3>
+        <p>If you use the hashtag #naturenest on Instagram,
+          we will spotlight you.</p>
+        <h4>Check it out <i class="fa-solid fa-arrow-right"></i> </h4>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <div class="contact-form-heading">
+        <h4>Stay updated with special offers,
+          plant-parenting tips, and more.</h4>
+
+      </div>
+      <div class="action">
+
+
+        <input type="text" name="email" id="email" placeholder="Your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER SECTION  -->
+  <footer>
+    <div class="footer-items">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="./images/LogoNatureNest2 1.png" alt="" width="240px">
+        </div>
+        <p>We are your one-stop destination for all things green and growing.</p>
+        <div class="socials">
+          <img src="./images/Vector.png" alt="">
+          <img src="./images/Vector (1).png" alt="">
+          <img src="./images/Vector (2).png" alt="">
+
+
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-item1">
+          <h3>Quick links</h3>
+          <p>About Us</p>
+          <p>Our Services</p>
+          <p>Our Products</p>
+          <p>Contact</p>
+        </div>
+        <div class="footer-item2">
+          <h3>Company</h3>
+          <p>Partnership</p>
+          <p>Terms of Use</p>
+          <p>Privacy</p>
+          <p>Sitemap</p>
         </div>
       </div>
     </div>
 
-    <!-- popular-section SECTION  -->
-    <section class="popular-section" id="about">
-      <div class="weeks-heading">
-        <h3>
-          This week's <span>Most Popular</span> and <span>Best Selling </span>
-        </h3>
-        <button>See more</button>
-      </div>
-      <div class="weeks-bests">
-        <div class="best-card">
-          <img src="./images/image (3).png" alt="" />
-          <div class="best-card-tag">
-            <div class="plant">Fiddle-leaf fig</div>
-            <div class="price"> &#8358 3,500.00</div>
-          </div>
-        </div>
+    <div class="footer-item3">
+      <p>Copyright © 2024 Naturenest.</p>
+    </div>
+  </footer>
+</body>
 
-          <div class="best-card">
-          <img src="./images/image (1).png" alt="" />
-          <div class="best-card-tag">
-            <div class="plant">Fiddle-leaf fig</div>
-            <div class="price"> &#8358 3,500.00</div>
-          </div>
-        </div>
-
-          <div class="best-card">
-          <img src="./images/image (2).png" alt="" />
-          <div class="best-card-tag">
-            <div class="plant">Fiddle-leaf fig</div>
-            <div class="price"> &#8358 3,500.00</div>
-          </div>
-        </div>
-
-          <div class="best-card">
-          <img src="./images/image (3).png" alt="" />
-          <div class="best-card-tag">
-            <div class="plant">Fiddle-leaf fig</div>
-            <div class="price"> &#8358 3,500.00</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonial SECTION  -->
-     <!-- <section class="testimonial">
-      <h3>What customers say about <span> Naturenest? </span></h3>
-     </section> -->
-  </body>
 </html>
