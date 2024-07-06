@@ -11,9 +11,9 @@
  overflow-x: hidden;
  }
  
- .allglobalContainer{
-     /* border: 1px solid red; */
- }
+ /* .allglobalContainer{
+     border: 1px solid red;
+ } */
  .productcontainer{
      /* border: 1px solid red; */
      display: flex;
@@ -56,10 +56,10 @@
      margin-right: 80px;
  
  }
- .productcontainer .overallGreenflower{
-     /* border: 1px solid blue; */
+ /* .productcontainer .overallGreenflower{
+     border: 1px solid blue;
  }
- 
+  */
  .productcontainer .overallGreenflower img{
      width: 500px;
  }

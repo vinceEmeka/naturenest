@@ -12,10 +12,10 @@ width: 100%;
 overflow-x: hidden;
 font-family: "Baskervville SC", serif;
 }
-.allglobalContainer{
-    /* border: 1px solid red; */
-    /* margin: 10px; */
-}
+/* .allglobalContainer{
+    border: 1px solid red; 
+    margin: 10px;
+} */
 
 .innerGlobalcontainer{
     background-color: #E8EEEC;
