@@ -44,7 +44,22 @@ header {
   padding: 10px 100px;
   z-index: 100;
 }
-
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.hamburger .line {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: #373737;
+  transition: all 0.3s ease;
+}
+.navbar.active ul {
+  display: flex;
+  transition: all 0.3s ease;
+}
 .navbar ul {
   display: flex;
   list-style-type: none;
@@ -151,6 +166,11 @@ button {
   width: 240px;
   height: 56px;
   margin-top: 24px;
+  transition: background-color 0.15s;
+}
+button:hover {
+  background-color: var(--primary-green);
+  cursor: pointer;
 }
 
 .left-img {
@@ -412,7 +432,6 @@ button {
 
 .plant-categories-content .weeks-bests {
   /* overflow-x: hidden; */
-  /* padding: -100px; */
 }
 
 .plant-categories h3 {
@@ -423,8 +442,8 @@ button {
   margin-left: 8px;
 }
 .plant-categories-content {
-  margin-left: 100px;
-  overflow-x: hidden;
+  margin: 0 100px;
+  /* overflow-x: hidden; */
 }
 
 /* testimonial-section */
