@@ -53,7 +53,7 @@ header {
   width: 30px;
   height: 3px;
   margin: 5px;
-  background-color: #373737;
+  background-color: #101010;
   transition: all 0.3s ease;
 }
 .navbar.active ul {

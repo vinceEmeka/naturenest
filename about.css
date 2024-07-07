@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Baskervville SC", serif;
+}
+
+/* .allglobalContainer{
+    border: 1px solid red; 
+    margin: 10px;
+} */
+
+.innerGlobalcontainer {
+  background-color: #e8eeec;
+  display: flex;
+  justify-content: space-between;
+}
+.firstTextContainer {
+  margin-top: 90px;
+  padding: 80px;
+  font-size: 30px;
+}
+.innerGlobalcontainer .firstText {
+  /* border: 1px solid green; */
+  color: #95b151;
+}
+.innerGlobalcontainer .imageSVG {
+  /* border: 1px solid red; */
+  background-color: #e8eeec;
+}
+.imageSVG img {
+  width: 400px;
+  height: 400px;
+}
+.missionContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.missionContainer .missionText {
+  width: 400px;
+  margin: 35px;
+  color: #859274;
+  margin-left: 70px;
+}
+
+.missionContainer .missionText1 {
+  color: #4f644e;
+  font-size: 25px;
+  padding: 15px 0px;
+}
+.missionContainer .missionText1 strong {
+  color: #95b951;
+}
+
+.rectangleGreenflower {
+  /* border: 1px solid red; */
+  margin: 0px 70px;
+}
+.vissioncontainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.vissiontext {
+  width: 400px;
+  margin: 35px;
+  color: #859274;
+  /* margin: 150px; */
+}
+.vissiontext .vissiontext1 {
+  color: #4f644e;
+  padding: 15px 0px;
+  font-size: 25px;
+}
+.vissiontext .vissiontext1 strong {
+  color: #95b951;
+}
+
+/* founder container begins */
+.foundersContainer {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #f8f7f3;
+  padding: 40px;
+  /* border: 1px solid red; */
+}
+
+.foundersContainer .founderstext {
+  text-align: center;
+  margin: 40px auto;
+}
+.foundersContainer .founderstext p {
+  color: #95b151;
+  font-weight: 800;
+}
+.foundersContainer .founderstext h4 {
+  font-size: 30px;
+}
+/* card container styling bigins */
+
+.cardglobalContainer {
+  width: 100%;
+  border-radius: 10px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardminiContainer1 {
+  width: 100% !important;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.imageContainer {
+  flex: 1;
+  border-radius: 10px;
+  margin-left: -30px;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  object-fit: contain;
+}
+
+.cardtextContainer {
+  flex: 3;
+  color: #888a7e;
+}
+
+.cardtextContainer .dashGlobal {
+  /* border: 1px solid red; */
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardtextContainer .dashGlobal .dash {
+  color: #95b951;
+  font-weight: 800;
+}
+.cardtextContainer .dashGlobal .ceo1 {
+  color: #000;
+  font-weight: 800;
+  font-size: 20px;
+}
+.cardtextContainer .dashGlobal .ceo1 p {
+  color: #888a7e;
+  font-weight: 800;
+}
+
+/* bootstrap styling starts here */
+
+.bootsrapGlobalcontainer {
+  /* border: 1px solid red; */
+  padding: 100px;
+}
+
+.bootsrapinnerContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+  justify-content: center;
+  text-align: center;
+}
+.bootsrapinnerContainer .bootsrap1 {
+  /* border: 1px solid blue; */
+  font-weight: 800;
+  font-size: 20px;
+}
+
+/* expertContainer styling begins here */
+
+.expertContainer {
+  /* border: 1px solid red; */
+  padding-top: 30px;
+  margin-top: 20px;
+}
+.expertContainer .expertText {
+  text-align: center;
+  font-weight: 800;
+}
+.expertContainer .expertText p {
+  color: #95b951;
+  padding: 10px;
+}
+.expertContainer .expertText h4 {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.imageGlobalcontainer {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.imageGlobalcontainer .image1 {
+  /* border: 1px solid red; */
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .imageGlobalcontainer {
+    padding: 10px;
+    flex-direction: column;
+  }
+}
+.suscriptionContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top: 150px;
+}
+
+.suscriptioninnerContainer {
+  /* border: 1px solid blue; */
+  width: 400px;
+  margin-right: 40px;
+  /* font-size: 30px; */
+}
+
+.suscriptioninnerContainer p {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.suscriptionContainer .buttonContainer {
+  /* border: 1px solid black; */
+  /* width: 300px; */
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+.suscriptionContainer .buttonContainer .firstButton {
+  width: 300px;
+  padding: 7px;
+  text-align: left;
+  color: #888a7e;
+  font-weight: 500;
+  background-color: #e8eeec;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.suscriptionContainer .buttonContainer .secondButton {
+  width: 200px;
+  padding: 7px;
+  color: #fff;
+  background-color: #365535;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .innerGlobalcontainer {
+    /* border: 1px solid red; */
+    /* margin: 50px; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .firstTextContainer {
+    margin-top: 60px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .imageSVG img {
+    width: 200px;
+    height: 200px;
+  }
+  .missionContainer .missionText {
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .missionContainer {
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    text-justify: auto;
+
+    /* justify-content: space-between; */
+  }
+  .rectangleGreenflower {
+    /* border: 1px solid red; */
+    /* margin: 0px 70px; */
+    margin: 0px auto;
+  }
+
+  .imageGlobalcontainer {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .missionContainer .missionText1 {
+    text-align: center;
+    justify-items: center;
+  }
+  .vissioncontainer {
+    flex-wrap: wrap-reverse;
+  }
+  .vissiontext .vissiontext1 {
+    justify-items: center;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .cardglobalContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardminiContainer1 {
+    width: 100% !important;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .imageContainer {
+    flex: 1;
+    border-radius: 10px;
+    margin-left: -30px;
+  }
+
+  .imageContainer img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    object-fit: contain;
+  }
+
+  .cardtextContainer {
+    flex: 3;
+    color: #888a7e;
+  }
+
+  .cardtextContainer .dashGlobal {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  .cardtextContainer .dashGlobal .dash {
+    color: #95b951;
+    font-weight: 800;
+  }
+  .cardtextContainer .dashGlobal .ceo1 {
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .cardtextContainer .dashGlobal .ceo1 p {
+    color: #888a7e;
+    font-weight: 800;
+  }
+
+  .bootsrapGlobalcontainer {
+    padding: 0px;
+  }
+
+  .bootsrapinnerContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+    /* justify-content: space-between; */
+    font-weight: 300;
+  }
+
+  .bootsrapinnerContainer .bootsrap1 {
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .imageGlobalcontainer {
+    margin: 0px auto;
+    max-width: 1200px;
+  }
+
+  .imageGlobalcontainer .image1 {
+    margin: 0px auto;
+  }
+
+  .imageGlobalcontainer .image1 img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .suscriptionContainer {
+    /* border: 1px solid red; */
+    width: 350px;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+
+  .suscriptioninnerContainer {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .suscriptioninnerContainer p {
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .suscriptionContainer .buttonContainer {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  .suscriptionContainer .buttonContainer .secondButton {
+    width: 300px;
+  }
+}

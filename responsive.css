@@ -19,27 +19,32 @@
   .logo img {
     width: 100px;
   }
-  .navbar {
-    display: none;
+  .hero {
+    padding-bottom: 0px;
   }
+  /* .navbar {
+    display: none;
+  } */
 
   .navbar ul {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
+    justify-content: space-around;
+    top: 59px;
+    right: 0;
+    width: 50vw;
     height: 50vh;
-    background-color: #373737;
-    text-align: center;
+    background-color: #ffffff;
+    text-align: right;
     padding-bottom: 20px;
-    gap: 20px;
+    column-gap: 20px;
     /* opacity: 0.8; */
   }
 
   .navbar ul li a {
-    color: #fff;
+    color: #787878;
+    margin: 10px 0px;
   }
 
   .navbar.active ul {
@@ -87,9 +92,9 @@
   .hero-btn button {
     /* display: none; */
     width: 81px;
-    height: 40px;
+    height: 27.5px;
     font-size: 10px;
-    padding: 15px 7px;
+    /* padding: 0px 7px; */
     border-radius: 6.45px;
   }
   .left-img {

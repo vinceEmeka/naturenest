@@ -1,0 +1,184 @@
+@media (max-width: 767px) {
+  body {
+    /* overflow-x: visible; */
+  }
+  section {
+    min-height: 50vh;
+    padding: 4rem 10px 1rem;
+    width: 100%;
+  }
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    top: 59px;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    background-color: #ffffff;
+    text-align: right;
+    padding-bottom: 20px;
+    column-gap: 20px;
+    /* opacity: 0.8; */
+  }
+
+  .navbar ul li a {
+    color: #787878;
+    margin: 10px 0px;
+  }
+
+  .navbar.active ul {
+    display: flex;
+    transition: all 0.3s ease;
+  }
+
+  .header .hamburger {
+    display: block;
+  }
+
+  .header .hamburger.active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .header .hamburger.active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .header .hamburger.active .line2 {
+    opacity: 0;
+  }
+
+  .section-one.img {
+    width: 151px;
+    height: 211.74px;
+    margin-left: 10px;
+  }
+  .section-one.img img {
+    width: 151px;
+    height: 211.74px;
+    /* object-fit: none; */
+  }
+  .section-one.content {
+    margin-left: 10px;
+    row-gap: 10px;
+  }
+  .section-one.content .text h3 {
+    margin-bottom: 14px;
+    font-size: 14.63px;
+    max-width: 189.93px;
+  }
+  .section-one.content .text p {
+    font-size: 8px;
+    max-width: 192px;
+  }
+  .phone {
+    margin-top: 10px;
+  }
+  .email h4,
+  .phone h4 {
+    font-size: 7.32px;
+  }
+  .email p,
+  .phone p {
+    font-size: 5.49px;
+  }
+  .links-img img {
+    width: 27.13px;
+    height: 27.13px;
+  }
+  .icons img {
+    width: 18.29px;
+  }
+
+  /* section Two  */
+  .section-two {
+    margin-top: -1rem;
+  }
+
+  .section-two .background {
+    width: 390px;
+    margin: 0 auto;
+  }
+  .location {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 14px 17px;
+    top: 80px;
+    right: 40px;
+  }
+  .location p {
+    font-size: 5.66px;
+  }
+  .location-text h3,
+  .location-text h3 span {
+    /* max-width: 300px; */
+    font-size: 11.31px;
+  }
+  .location-text p {
+    max-width: 128.22px;
+  }
+  .address p {
+    max-width: 98.22px;
+  }
+  .addresses img {
+    width: 15.71px;
+    height: 15.71px;
+  }
+  .address {
+    display: flex;
+    max-width: 370px;
+    margin: 7px 0px;
+  }
+  /* Form section  */
+  form {
+    width: 390px;
+    font-size: 8px;
+    margin-top: -9rem;
+  }
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .row1 div {
+    margin-bottom: 10px;
+  }
+  form div input {
+    width: 183.09px;
+    height: 25.74px;
+    border-radius: 5.15px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 8px;
+    font-style: italic;
+  }
+  textarea {
+    height: 100%;
+    width: 389.68px;
+    border-radius: 5.15px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 8px;
+  }
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 179.48px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  form button {
+    margin-left: 10px;
+    width: 77.23px;
+    height: 18.05px;
+    border-radius: 4.83px;
+    font-size: 6.44px;
+  }
+  label {
+    font-size: 8px;
+  }
+  .contact-form {
+    margin: 10px 10px 10px 10px;
+  }
+}
