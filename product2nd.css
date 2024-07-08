@@ -14,9 +14,9 @@
  font-family: "Baskervville SC", serif;
  }
 
- .allproductContainer{
-     /* border: 1px solid red; */
- } 
+ /* .allproductContainer{
+     border: 1px solid red;
+ }  */
  .product2ndcontainer{
     /* border: 1px solid red; */
     display: flex;
@@ -92,7 +92,7 @@
 .product2ndInnercontainer .smallcont{
     font-size: 20px;
     padding-bottom: 10px;
-    margin-right: 40px;
+    margin-right: 30px;
     /* color: #C2C7C5; */
     font-weight: 600;
 }
@@ -348,6 +348,10 @@
         font-size: 20px;
         
     }
+    .updatedminiContainer{
+        margin: 0px auto;
+
+    }
     .updatedContainer .updatedminiContainer{
         flex-wrap: wrap;
         gap: 10px;
@@ -356,13 +360,13 @@
     }
     
     .updatedContainer .updatedminiContainer .firstupdated{
-        width: 350px;
+        width: 328px;
         margin-bottom: 20px;
         
     }
     
     .updatedContainer .updatedminiContainer .secondupdated{
-        width: 350px;
+        width: 328px;
     
     
       
