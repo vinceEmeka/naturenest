@@ -22,6 +22,46 @@
   .navbar {
     display: none;
   }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: #373737;
+    text-align: center;
+    padding-bottom: 20px;
+    gap: 20px;
+    /* opacity: 0.8; */
+  }
+
+  .navbar ul li a {
+    color: #fff;
+  }
+
+  .navbar.active ul {
+    display: flex;
+    transition: all 0.3s ease;
+  }
+
+  .header .hamburger {
+    display: block;
+  }
+
+  .header .hamburger.active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .header .hamburger.active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .header .hamburger.active .line2 {
+    opacity: 0;
+  }
+
   .nav-icons {
     display: none;
   }
@@ -44,14 +84,28 @@
     font-size: 12px;
     margin-top: 12px;
   }
-  .hero-btn {
-    display: none;
+  .hero-btn button {
+    /* display: none; */
+    width: 81px;
+    height: 40px;
+    font-size: 10px;
+    padding: 15px 7px;
+    border-radius: 6.45px;
   }
   .left-img {
     display: none;
   }
   .company-data {
-    display: none;
+    /* display: none; */
+    margin-top: 8px;
+    /* display: flex; */
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .customers {
+    margin-left: 18px;
+    padding-left: 18px;
+    border-left: 3px solid var(--lunar-green-primary);
   }
   .hero {
     display: flex;
@@ -66,7 +120,7 @@
 
   /* <!-- CARE OF PLANTS SECTION  --> */
   .section-heading h2 {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 24px;
   }
   .section-heading p {
@@ -157,7 +211,7 @@
   .testimonial-content p {
     font-size: 10px;
     line-height: 14px;
-    max-width: 650px;
+    /* max-width: 650px; */
   }
   .testimonial-content {
   }
@@ -165,11 +219,30 @@
   .testimonial-icons .profile-pic {
     position: absolute;
     width: 127px;
-    height: 173px;
+    height: 108px;
     margin-top: -200px;
+    object-fit: contain;
+  }
+  .quote {
+    margin-left: 0px;
+    width: 30px;
+    object-fit: contain;
+    margin-bottom: 80px;
+  }
+  .testimonial-icons {
+    margin-top: 0px;
+  }
+  .testimonial-items .testimonial-item:nth-child(2) .testimonial-icons .quote {
+    margin-left: 0px;
+  }
+  .testimonial-items .testimonial-item:nth-child(2) .testimonial-icons {
+    margin-top: 0px;
   }
   .username p {
     font-size: 10px;
+  }
+  .username h3 {
+    font-size: 18px;
   }
   .ratings {
     font-size: 9.74px;
@@ -181,15 +254,19 @@
   /* <!-- BLOG SECTION  -->  */
   .blog-heading {
     display: flex;
-    justify-content: start;
-    align-items: baseline;
+    flex-direction: column;
+    /* justify-content: start; */
+    /* align-items: baseline; */
+    align-items: end;
     margin-top: -1rem;
   }
+
   .blog-heading h3 {
     font-size: 24px;
   }
   .blog-heading p {
     font-size: 12px;
+    /* display: flex; */
   }
   .blog-section {
     display: flex;
