@@ -118,6 +118,7 @@
     justify-content: space-evenly;
   }
   .hero-img {
+    width: 353px;
     margin-top: -40px;
     margin-left: 0px;
     height: 40vh;

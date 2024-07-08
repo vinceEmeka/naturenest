@@ -120,6 +120,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  padding-bottom: 0px;
   /* gap: 16px; */
   /* align-items: center; */
 }
@@ -189,8 +190,8 @@ button:hover {
 
 .hero-img {
   margin-top: -160px;
-  /* width: 50%; */
-  margin-left: 100px;
+  width: 650px;
+  /* margin-left: 100px; */
   height: 100vh;
 }
 
@@ -209,8 +210,9 @@ button:hover {
   font-weight: bold;
   color: var(--lunar-green-primary);
   gap: 48;
-  margin-top: -200px;
+  margin-top: -250px;
   margin-left: 65px;
+  padding-bottom: 10px;
 }
 
 .company-data p {
