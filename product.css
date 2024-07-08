@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+   *{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ } 
+ 
+ 
+ body{
+ height: 100%;
+ width: 100%;    
+ overflow-x: hidden;
+ font-family: "Baskervville SC", serif;
+ }
+ 
+ /* .allglobalContainer{
+     border: 1px solid red;
+ } */
+ .productcontainer{
+     /* border: 1px solid red; */
+     display: flex;
+     justify-content: space-between;
+     background-color: #E8EEEC;
+ }
+ 
+ .productInnercontainer{
+     /* border: 1px solid BLUE; */
+     /* margin: 150px;/ */
+     text-align: center;
+     justify-items: center;
+     margin: auto;
+     
+     
+     
+ }
+ .productInnercontainer .minicont1{
+     font-size: 20px;
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: column;
+   padding-bottom: 100px;
+   color: #365535;
+   font-family: "Dancing Script", cursive;
+ 
+ 
+ }
+ 
+ .productInnercontainer .minicont{
+     font-size: 30px;
+     padding-bottom: 10px;
+     color: #C2C7C5;
+     font-weight: 800;
+ 
+ 
+ }
+ .productInnercontainer .minicont2{
+     color: #95b151;
+     font-size: 30px;
+     margin-right: 80px;
+ 
+ }
+ /* .productcontainer .overallGreenflower{
+     border: 1px solid blue;
+ }
+  */
+ .productcontainer .overallGreenflower img{
+     width: 500px;
+ }
+ 
+ /* productcontainer styling begins here */
+ 
+ @media screen and (max-width: 768px){
+    
+     .productcontainer{
+         /* border: 1px solid red; */
+         margin: 3px;
+         
+     }
+ 
+ .productInnercontainer{
+     /* border: 1px solid BLUE; */
+     text-align: start;
+ }
+ 
+ .productInnercontainer .minicont1{
+     font-size: 15px;
+     /* border: 1px solid red; */
+     padding: 50px 0px 30px 0px;
+ 
+   }
+ 
+   .productInnercontainer .minicont{
+     font-size: 20px;
+     padding-bottom: 10px;
+     /* color: #C2C7C5; */
+     font-weight: 600;
+ }
+ 
+ .productInnercontainer .minicont2{
+     font-size: 25px;
+     margin-right: 0px;
+ }
+ 
+ .productcontainer .overallGreenflower img{
+     width: 200px;
+ }
+ 
+ }
+ 
+ /* flowerVerse starts here */
+ 
+ .flowerverseGlobal{
+     width: 100%;
+     display: grid;
+     gap: 20px;
+     row-gap: 60px;
+     grid-template-columns: repeat(4, 1fr);
+     place-content: center;
+     max-width: 1200px;
+     margin: 20px auto;
+ } 
+
+ .flowerverseGlobal .flowerVerses {
+    height: 577px;
+    width: 295px;
+    border-radius: 5px;
+ }
+
+ .flowerVerses  img{
+     height: 100%;
+     width: 100%;
+     border-radius:inherit;
+     object-fit: contain;
+ }
+ .flowerVerses p{
+     color: #365535;
+ }
+ .flowerVerses p strong{
+     color: #787878;
+ }
+ /* flowerVerse responsiveness begins here */
+ @media screen and (max-width: 966px){
+    .flowerverseGlobal{      
+        grid-template-columns: repeat(3, 1fr);       
+    } 
+ }
+ @media screen and (max-width: 768px){
+    .flowerverseGlobal{      
+        grid-template-columns: repeat(2, 1fr);   
+        padding: 10px;    
+    } 
+
+    .flowerverseGlobal .flowerVerses {
+        width: 245px;
+     }
+
+ }
+ 
+ .suscriptionContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-top: 150px;
+}
+
+.suscriptioninnerContainer{
+    /* border: 1px solid blue; */
+    width: 400px;
+    margin-right: 40px;
+    /* font-size: 30px; */
+
+}
+
+.suscriptioninnerContainer p{
+    font-weight: 900;
+    font-size: 20px;
+    color: #365535;
+}
+
+.suscriptionContainer .buttonContainer{
+    /* border: 1px solid black; */
+    /* width: 300px; */
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+   
+
+}
+.suscriptionContainer .buttonContainer .firstButton{
+    width: 300px;
+    padding: 7px;
+    text-align: left;
+    color: #888A7E;
+    font-weight: 500;
+    background-color: #E8EEEC;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer
+}
+.suscriptionContainer .buttonContainer .secondButton{
+    width: 250px;
+    padding: 7px;
+    color: #fff;
+    background-color: #365535;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 966px){
+.suscriptionContainer{
+    /* border: 1px solid red; */
+    width: 350px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.suscriptioninnerContainer{
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+.suscriptioninnerContainer p{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+.suscriptionContainer .buttonContainer{
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 20px;
+   
+}
+
+.suscriptionContainer .buttonContainer .firstButton{
+    width: 400px;
+    
+}
+
+.suscriptionContainer .buttonContainer .secondButton{
+    width: 400px;
+
+
+  
+}
+}
