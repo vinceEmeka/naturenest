@@ -1,4 +1,7 @@
-*{ margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+   *{ margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -9,6 +12,7 @@
  height: 100%;
  width: 100%;    
  overflow-x: hidden;
+ font-family: "Baskervville SC", serif;
  }
  
  /* .allglobalContainer{
@@ -38,6 +42,7 @@
    justify-content: column;
    padding-bottom: 100px;
    color: #365535;
+   font-family: "Dancing Script", cursive;
  
  
  }
