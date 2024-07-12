@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
-  body {
-    /* overflow-x: visible; */
-  }
+  /* body {
+    overflow-x: visible;
+  } */
   section {
     min-height: 50vh;
     padding: 4rem 10px 1rem;

@@ -20,8 +20,11 @@
   --gray10: #f4f4f4;
   --background-green: #e8eeec;
 }
+
+html,
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 section {
@@ -123,9 +126,10 @@ header {
   /* gap: 16px; */
   /* align-items: center; */
 }
-.hero-content {
-  /* width: 80%; */
-}
+
+/* .hero-content {
+  width: 80%;
+} */
 
 .caption {
   display: flex;
