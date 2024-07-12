@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
    *{ margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,16 +14,19 @@
  overflow-x: hidden;
  font-family: "Baskervville SC", serif;
  }
- 
- /* .allglobalContainer{
+/*  
+ .allglobalContainer{
      border: 1px solid red;
  } */
+
+ 
  .productcontainer{
      /* border: 1px solid red; */
      display: flex;
      justify-content: space-between;
      background-color: #E8EEEC;
  }
+ 
  
  .productInnercontainer{
      /* border: 1px solid BLUE; */
@@ -123,9 +126,11 @@
  } 
 
  .flowerverseGlobal .flowerVerses {
+    display: block;
     height: 577px;
     width: 295px;
     border-radius: 5px;
+    text-decoration: none;
  }
 
  .flowerVerses  img{
