@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Lora", sans-serif;
+}
+
+:root {
+  --black-primary: black;
+  --lunar-green: #354733;
+  --lunar-green-primary: #365535;
+  --primary-green: #95b951;
+  --hero-bg: #e8eeec;
+  --bg-white: #ffffff;
+  --golden: #7f8260;
+  --text-gray: #808276;
+  --gray10: #f4f4f4;
+  --background-green: #e8eeec;
+}
+
+@media screen {
+  .contact-form {
+    margin-top: 40px;
+  }
+}

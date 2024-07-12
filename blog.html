@@ -3,52 +3,293 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="about.css" />
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belleza&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="contact-responsive.css" />
+    <link rel="stylesheet" href="blog.css" />
   </head>
   <body>
-    <section class="allglobalContainer">
-      <section class="innerGlobalcontainer">
-        <div class="firstTextContainer">
-          <h3 class="firstText">Grow</h3>
-          <h3 class="firstTextC">Innovate.</h3>
-          <h3 class="firstText">Transform</h3>
+    <!-- HEADER SECTION  -->
+
+    <header class="header">
+      <div class="logo">
+        <img src="./images/LogoNatureNest2 1.png" alt="" />
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="aboutme.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="nav-icons">
+        <div class="search">
+          <input type="text" placeholder="Search by plant" id="Search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <div class="imageSVG">
-          <img src="./images/greenflower.jpg" alt="greenflower" />
+
+        <i class="fa-solid fa-bag-shopping"></i>
+        <i class="fa-regular fa-user"></i>
+      </div>
+      <!-- hamburger  menu -->
+
+      <div class="hamburger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION  -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="caption">
+          <div class="stroke"></div>
+          <p>Love for Nature</p>
         </div>
-      </section>
+        <div class="hero-heading">
+          <h1>
+            blog
+            <span> <br />Discover weekly content about Plants, & more</span>
+          </h1>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="./images/hero-img.png" alt="" />
+      </div>
+    </section>
 
-     
-     
-
-
-
-          
-
-     
-
-     
-       
-         
-           
-
-          <!-- suscription starts here -->
-
-          <div class="suscriptionContainer">
-            <div class="suscriptioninnerContainer">
+    <!-- FIRST SECTION  -->
+    <div class="blog" id="">
+      <!-- <div class="blog-heading">
+        <h3>Discover weekly content about Plants, & more</h3>
+        <p>Learn more <i class="fa-solid fa-arrow-right"></i></p>
+      </div> -->
+      <div class="blog-section">
+        <div class="blog-items">
+          <div class="blog-item">
+            <img src="./images/Photo.png" alt="" />
+          </div>
+          <div class="blog-item-lap">
+            <div class="user">
+              <img src="./images/Vector (4).png" alt="" />
+              <p>By Adebamike</p>
+            </div>
+            <div class="blog-item-text">
+              <h4>How to care for Monstera Plant</h4>
               <p>
-                Stay updated with special offers, plant-parenting tips, and
-                more.
+                Monstera deliciosa, also known as the split-leaf philodendron or
+                Swiss cheese plant, is a...
               </p>
             </div>
-            <div class="buttonContainer">
-              <button class="firstButton">Your email</button>
-              <button class="secondButton">Suscribe</button>
+            <button>Read more</button>
+          </div>
+          <div class="date">
+            <p>25 Nov</p>
+          </div>
+        </div>
+
+        <div class="blog-items second">
+          <div class="blog-item">
+            <img src="./images/Photo (1).png" alt="" />
+          </div>
+          <div class="blog-item-lap">
+            <div class="user">
+              <img src="./images/Vector (4).png" alt="" />
+              <p>By Ajibola</p>
+            </div>
+            <div class="blog-item-text">
+              <h4>Surprising facts about the Monstera</h4>
+              <p>
+                Monstera deliciosa, also known as the Swiss cheese plant, is a
+                fascinating tropical houseplant with...
+              </p>
+            </div>
+            <button>Read more</button>
+          </div>
+          <div class="date">
+            <p>25 Nov</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECOND SECTION  -->
+      <div class="blog" id="">
+        <!-- <div class="blog-heading">
+        <h3>Discover weekly content about Plants, & more</h3>
+        <p>Learn more <i class="fa-solid fa-arrow-right"></i></p>
+      </div> -->
+        <div class="blog-section">
+          <div class="blog-items">
+            <div class="blog-item">
+              <img src="./images/Photo.png" alt="" />
+            </div>
+            <div class="blog-item-lap">
+              <div class="user">
+                <img src="./images/Vector (4).png" alt="" />
+                <p>By Adebamike</p>
+              </div>
+              <div class="blog-item-text">
+                <h4>How to care for Monstera Plant</h4>
+                <p>
+                  Monstera deliciosa, also known as the split-leaf philodendron
+                  or Swiss cheese plant, is a...
+                </p>
+              </div>
+              <button>Read more</button>
+            </div>
+            <div class="date">
+              <p>25 Nov</p>
             </div>
           </div>
-        </section>
-      </section>
-    </section>
+
+          <div class="blog-items second">
+            <div class="blog-item">
+              <img src="./images/Photo (1).png" alt="" />
+            </div>
+            <div class="blog-item-lap">
+              <div class="user">
+                <img src="./images/Vector (4).png" alt="" />
+                <p>By Ajibola</p>
+              </div>
+              <div class="blog-item-text">
+                <h4>Surprising facts about the Monstera</h4>
+                <p>
+                  Monstera deliciosa, also known as the Swiss cheese plant, is a
+                  fascinating tropical houseplant with...
+                </p>
+              </div>
+              <button>Read more</button>
+            </div>
+            <div class="date">
+              <p>25 Nov</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THIRD SECTION  -->
+      <div class="blog" id="">
+        <!-- <div class="blog-heading">
+        <h3>Discover weekly content about Plants, & more</h3>
+        <p>Learn more <i class="fa-solid fa-arrow-right"></i></p>
+      </div> -->
+        <div class="blog-section">
+          <div class="blog-items">
+            <div class="blog-item">
+              <img src="./images/Photo.png" alt="" />
+            </div>
+            <div class="blog-item-lap">
+              <div class="user">
+                <img src="./images/Vector (4).png" alt="" />
+                <p>By Adebamike</p>
+              </div>
+              <div class="blog-item-text">
+                <h4>How to care for Monstera Plant</h4>
+                <p>
+                  Monstera deliciosa, also known as the split-leaf philodendron
+                  or Swiss cheese plant, is a...
+                </p>
+              </div>
+              <button>Read more</button>
+            </div>
+            <div class="date">
+              <p>25 Nov</p>
+            </div>
+          </div>
+
+          <div class="blog-items second">
+            <div class="blog-item">
+              <img src="./images/Photo (1).png" alt="" />
+            </div>
+            <div class="blog-item-lap">
+              <div class="user">
+                <img src="./images/Vector (4).png" alt="" />
+                <p>By Ajibola</p>
+              </div>
+              <div class="blog-item-text">
+                <h4>Surprising facts about the Monstera</h4>
+                <p>
+                  Monstera deliciosa, also known as the Swiss cheese plant, is a
+                  fascinating tropical houseplant with...
+                </p>
+              </div>
+              <button>Read more</button>
+            </div>
+            <div class="date">
+              <p>25 Nov</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEFORE FOOTER SECTION  -->
+    <div class="contact-form">
+      <div class="contact-form-heading">
+        <h4>Blog Discover weekly content about Plants, & more</h4>
+      </div>
+      <div class="action">
+        <input type="text" name="email" id="email" placeholder="Your email" />
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION  -->
+    <footer>
+      <div class="footer-items">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img src="./images/LogoNatureNest2 1.png" alt="" width="240px" />
+          </div>
+          <p>
+            We are your one-stop destination for all things green and growing.
+          </p>
+          <div class="socials">
+            <img src="./images/Vector.png" alt="" />
+            <img src="./images/Vector (1).png" alt="" />
+            <img src="./images/Vector (2).png" alt="" />
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="footer-item1">
+            <h3>Quick links</h3>
+            <p>About Us</p>
+            <p>Our Services</p>
+            <p>Our Products</p>
+            <p>Contact</p>
+          </div>
+          <div class="footer-item2">
+            <h3>Company</h3>
+            <p>Partnership</p>
+            <p>Terms of Use</p>
+            <p>Privacy</p>
+            <p>Sitemap</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-item3">
+        <p>Copyright © 2024 Naturenest.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
